@@ -1,0 +1,46 @@
+Required Dependencies:
+
+- Axis 1.4
+- Java Saml Core 2.0.1
+- Yellowfin Webservice library (that matches your installation of Yellowfin)
+- Log4j 1.2
+
+There are multiple vulnerabilities in Axis 1.4 and Log4j 1.2.
+An unreleased version of Axis 1.4.1 exists at https://github.com/apache/axis-axis1-java with patches for vulnerabilities
+Reload4j (from https://reload4j.qos.ch/) can be used as a replacement for Log4j 1.2, which has patches for vulnerablities
+
+The binary distribution of this library shipped with these libraries:
+
+axis.jar 
+commons-codec-1.10.jar 
+commons-discovery.jar 
+commons-lang3-3.4.jar 
+commons-logging-1.0.4.jar 
+java-saml-core-2.0.1-SNAPSHOT.jar 
+jaxrpc.jar joda-time-2.9.4.jar 
+log4j-1.2.17.jar 
+logback-classic-1.1.3.jar 
+logback-core-1.1.3.jar 
+saaj.jar 
+slf4j-api-1.7.12.jar 
+wsdl4j-1.6.3.jar 
+xmlsec-2.0.7.jar 
+yfws-20170103.jar
+
+MD5 (axis.jar) = 03dcfdd88502505cc5a805a128bfdd8d
+MD5 (commons-codec-1.10.jar) = 353cf6a2bdba09595ccfa073b78c7fcb
+MD5 (commons-discovery.jar) = 9f98114af64d75c0995960e5ce7ebcfd
+MD5 (commons-lang3-3.4.jar) = 8667a442ee77e509fbe8176b94726eb2
+MD5 (commons-logging-1.0.4.jar) = c9583480413ffee599e58e2217b23fc7
+MD5 (java-saml-core-2.0.1-SNAPSHOT.jar) = 99040bd80562b2494645548571e2048b
+MD5 (jaxrpc.jar) = b4592e5eccfeeeae87cfadef0ca66c66
+MD5 (joda-time-2.9.4.jar) = e255d8f6e705d3e6918198bceb5458a0
+MD5 (log4j-1.2.17.jar) = fb87bd84e336ca3dc6b6c108f51bf25e
+MD5 (logback-classic-1.1.3.jar) = 19ec751a4fe907ddb204dff93103acbb
+MD5 (logback-core-1.1.3.jar) = 94975ef44aa05c5067563875a783351e
+MD5 (saaj.jar) = 87b30c8124683bbd11f9ff2bcaaafbf8
+MD5 (slf4j-api-1.7.12.jar) = 68910bf95dbcf90ce5859128f0f75d1e
+MD5 (wsdl4j-1.6.3.jar) = cfc28d89625c5e88589aec7a9aee0208
+MD5 (xmlsec-2.0.7.jar) = 6105e54dd419b20ee397458974340240
+MD5 (yfws-20170103.jar) = 321fd3fca02d7f032cd49c4f6f298e17
+
