@@ -9,7 +9,7 @@ There are multiple vulnerabilities in Axis 1.4 and Log4j 1.2.
 An unreleased version of Axis 1.4.1 exists at https://github.com/apache/axis-axis1-java with patches for vulnerabilities
 Reload4j (from https://reload4j.qos.ch/) can be used as a replacement for Log4j 1.2, which has patches for vulnerablities
 
-The binary distribution of this library requires with these libraries:
+The binary distribution of this library requires these dependencies:
 
 axis-jaxrpc-1.4.jar
 axis-rt-core-1.4.1-20230921.jar
@@ -46,7 +46,8 @@ MD5 (yfws-9.14.0.1-20250114.jar) = 04ed20f8b3b87c49ac761bc195d309a3
 
 download_dependencies.sh has been provided to download these libraries.
 
-This will download everything except for: 
+This will download all dependencies except for: 
+
  - yfws.jar file (Yellowfin Webservice Library that needs to match the version of Yellowfin in use).
  - axis-rt-core-1.4.1-20230921.jar (which can be sourced from a Yellowfin installation or manually built from the code at https://github.com/apache/axis-axis1-java)
 
